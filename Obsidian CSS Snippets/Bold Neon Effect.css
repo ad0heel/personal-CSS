@@ -1,0 +1,27 @@
+/* ───────────────────────────────────────
+   粗體 hover 換色效果 - 閱讀模式
+─────────────────────────────────────── */
+.markdown-preview-section strong:hover {
+    color: #d87325 !important;
+    text-shadow: 
+/*         0 0 3px #faff5c,             
+ */        0 0 7px #ff6294;
+    cursor: text;
+    transition:
+        color 0.4s ease,
+        text-shadow 0.7s ease;
+}
+
+/* ───────────────────────────────────────
+   粗體 hover 換色效果 - 編輯模式 Live Preview
+─────────────────────────────────────── */
+.cm-strong:hover {
+    color: #d87325 !important;
+    text-shadow: 
+/*         0 0 3px #faff5c,             
+ */        0 0 7px #ff6294;
+    cursor: text;
+    transition:
+        color 0.4s ease,
+        text-shadow 0.7s ease;
+}
