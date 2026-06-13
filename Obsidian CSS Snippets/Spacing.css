@@ -1,0 +1,44 @@
+/* ───────────────────────────────────────
+   內文 + 列表 - 編輯模式
+─────────────────────────────────────── */
+.markdown-source-view.mod-cm6 .cm-content {
+    line-height: 2.0 !important;
+    letter-spacing: 0.3em !important;
+}
+
+/* ───────────────────────────────────────
+   內文 + 列表 - 閱讀模式
+─────────────────────────────────────── */
+.markdown-preview-section p,
+.markdown-preview-section li,
+.markdown-preview-section ul,
+.markdown-preview-section ol {
+    line-height: 2.0 !important;
+    letter-spacing: 0.3em !important;
+}
+
+/* ───────────────────────────────────────
+   標題 - 閱讀模式
+─────────────────────────────────────── */
+.markdown-preview-section h1,
+.markdown-preview-section h2,
+.markdown-preview-section h3,
+.markdown-preview-section h4,
+.markdown-preview-section h5,
+.markdown-preview-section h6 {
+    letter-spacing: 0.3em !important;
+    line-height: 2.0 !important;
+}
+
+/* ───────────────────────────────────────
+   標題 - 編輯模式
+─────────────────────────────────────── */
+.cm-line.HyperMD-header-1,
+.cm-line.HyperMD-header-2,
+.cm-line.HyperMD-header-3,
+.cm-line.HyperMD-header-4,
+.cm-line.HyperMD-header-5,
+.cm-line.HyperMD-header-6 {
+    letter-spacing: 0.3em !important;
+    line-height: 2.0 !important;
+}

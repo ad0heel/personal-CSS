@@ -1,0 +1,42 @@
+/* ───────────────────────────────────────
+   內文文字顏色 - 閱讀模式
+─────────────────────────────────────── */
+.markdown-preview-section p,
+.markdown-preview-section li {
+    color: rgb(174, 174, 174) !important;
+}
+
+/* ───────────────────────────────────────
+   標題文字顏色 - 閱讀模式
+─────────────────────────────────────── */
+.markdown-preview-section h1,
+.markdown-preview-section h2,
+.markdown-preview-section h3,
+.markdown-preview-section h4,
+.markdown-preview-section h5,
+.markdown-preview-section h6 {
+    color: rgb(222, 222, 222) !important;
+}
+
+/* ───────────────────────────────────────
+   內文文字顏色 - 編輯模式
+─────────────────────────────────────── */
+.cm-line {
+    color: rgb(174, 174, 174) !important;
+}
+
+/* ───────────────────────────────────────
+   粗體文字顏色 - 閱讀模式
+─────────────────────────────────────── */
+ .markdown-preview-section strong {
+    color: #9975fc !important;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+/* ───────────────────────────────────────
+   粗體文字顏色 - 編輯模式 Live Preview
+─────────────────────────────────────── */
+ .cm-strong {
+    color: #9975fc !important;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
